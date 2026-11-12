@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="google" content="notranslate">
+<title>Students Day — рассадка</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;700&family=Manrope:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <h1>Students Day — рассадка</h1>
+  <div class="orn">❖ ✦ ❖</div>
+  <div class="st" id="st">Подключаюсь…</div>
+  <div class="stats">
+    <span class="stat">Сели: <b id="s1">0/0</b></span>
+    <span class="stat">Столы заполнены: <b id="s2">0/0</b></span>
+  </div>
+</header>
+
+<main>
+  <div class="banner">Невеста</div>
+  <div class="map" id="map"></div>
+  <div id="exw" hidden><h2>Дополнительные столы</h2><div class="extra" id="extra"></div></div>
+  <div class="banner" style="margin-top:14px">Сцена</div>
+</main>
+<button class="fab" id="add">+ Стол</button>
+
+<div class="ov" id="ov" hidden>
+  <div class="top">
+    <div class="ttl"><h3 id="mt"></h3><span class="grp" id="mg"></span></div>
+    <span class="badge" id="mb"></span>
+    <button class="x" id="cl" aria-label="Закрыть">×</button>
+  </div>
+  <div class="mid" id="mid">
+    <div class="fit" id="fit">
+      <div class="stage" id="stage">
+        <div class="tb" id="tb"><b id="tn"></b><span id="tc"></span></div>
+        <div class="ring"><div class="orbit" id="orbit"></div></div>
+      </div>
+    </div>
+  </div>
+  <div class="bar2">
+    <button class="btn p" id="plus">+ Стул</button>
+    <button class="btn" id="minus">− Стул</button>
+    <button class="btn" id="all">Все сели</button>
+    <button class="btn" id="none">Сбросить</button>
+    <button class="btn d" id="del" hidden>Удалить стол</button>
+  </div>
+</div>
+
+<script type="module" src="app.js"></script>
+</body>
+</html>
